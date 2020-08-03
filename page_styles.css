@@ -1,0 +1,11 @@
+p1{
+  font-size:20px;
+  background: #0000cd;
+  color:white;
+  width: 500px;
+  border: 1px solid #cccccc;
+}
+
+p.img2{
+  margin : 0 auto ;
+}
