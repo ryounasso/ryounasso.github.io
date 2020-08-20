@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Sample</title>
+  <!-- BootstrapのCSS読み込み -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- BootstrapのJS読み込み -->
+  <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="page_styles.css" />
   <script src="https://kit.fontawesome.com/8e85d50f2d.js" crossorigin="anonymous"></script>
   <title>Portfolio</title>
 </head>
-<body>
-  <h1 style="text-align:center"><EM>ホームページ</h1>
-    <p1>自己紹介</p1>
-    <div align="center">
-      <a href= "https://aiiver-wablog-pic.amebaownd.com/" >my blog</a>
-    </div>
 
-    <div align="center">
-      <a href= "https://ryounasso.github.io/calculater/" >電卓</a>
+<body>
+  <div class ="container-fluid">
+    <div class="row">
+      <div class="center-block">
+        <a href= "https://aiiver-wablog-pic.amebaownd.com/" >my blog</a>
+      </div>
+
+      <div class="center-block">
+        <a href= "https://ryounasso.github.io/calculater/" >電卓</a>
+      </div>
+      <!--<h1>別pageジャンプ</h1>-->
+      <p class="center-block">
+        <a href="index2.html">photo gallery</a>
+      </p>
     </div>
-    <!--<h1>別pageジャンプ</h1>-->
-    <p style="text-align:center">
-      <a href="index2.html">photo gallery</a>
-    </p>
-    <footer>
-      <p>(c)copy right</p>
+  </div>
+  <footer>
+    <p>(c)copy right
       <i class="fab fa-twitter-square"></i>
       <i class="fab fa-github"></i>
       <i class="fab fa-linkedin"></i>
       <i class="fab fa-facebook"></i>
       <i class="fab fa-instagram"></i>
-    </footer>
-  </div>
+    </p>
+  </footer>
+</div>
 </body>
