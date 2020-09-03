@@ -1,47 +1,65 @@
-.header {
+header {
   position : relative;
   margin-left:0;
   margin-right:0;
   margin-top : 0;
   padding : 0px;
 }
-.header img {
-  width : 100%;
-  height : 30%;
-  vertical-align: bottom;
-  object-fit: cover;
+
+@media (min-width:1000px){
+  header img {
+    width : 100%;
+    height : 400px;
+    vertical-align: bottom;
+    /* object-fit: cover; */
+  }
 }
-.header .title p {
+@media (max-width:600px){
+  header img {
+    width : 70%;
+    height : 300px;
+    vertical-align: bottom;
+    object-fit: cover;
+  }
+}
+@media (max-width: 300px){
+  header img {
+    width : 50%;
+    height : 200px;
+    vertical-align: bottom;
+    object-fit: cover;
+  }
+}
+header .title p {
   position : absolute;
   margin: 0;
   top: 20px;
   left : 30px;
-  font-family: 'Bungee Inline', cursive;
-  font-size: 6vw;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 4vw;
   color : #FFF;
 }
+
 p.img2{
   margin : 0 auto ;
 }
 
 .wrapper{
-  min-height: 100vh;
-  position: relative;/*←相対位置*/
-
-  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 50px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+    flex-direction: column;
 }
 
 footer{
   clear:both;
   height:50px;
   width: 100%;
-  background-color: #89c7de;
+  background-color: #9F8B5F;
   color: #fff;
   text-align: center;
   font-size:0.85em;
-  /* padding-top:30px; */
 
-  position: absolute;/*←絶対位置*/
-  bottom: 0; /*下に固定*/
-  display:block;
+  margin-top: auto;
 }
