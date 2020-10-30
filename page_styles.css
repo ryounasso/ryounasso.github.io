@@ -52,6 +52,10 @@ p.img2{
     flex-direction: column;
 }
 
+.rounded-circle{
+  margin-top: : 50px;
+}
+
 footer{
   clear:both;
   height:50px;
@@ -69,4 +73,8 @@ a.no-color-change:visited,
 a.no-color-change:hover,
 a.no-color-change:active {
   color: black;
+}
+
+.img{
+  float: left;
 }
