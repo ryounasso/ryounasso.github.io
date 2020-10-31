@@ -40,6 +40,10 @@ header .title p {
   color : #FFF;
 }
 
+.Univ{
+  text-shadow: 1px 2px 3px#808080; 
+}
+
 p.img2{
   margin : 0 auto ;
 }
