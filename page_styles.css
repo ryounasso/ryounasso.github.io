@@ -54,6 +54,7 @@ p.img2{
     padding-bottom: 50px;/*←footerの高さ*/
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
     flex-direction: column;
+    margin-top: 150px
 }
 
 .rounded-circle{
