@@ -90,9 +90,6 @@ a.no-color-change:active {
 }
 
 .btn{
-  background-color: #9F8B5F;
-  opacity: 0.5;
-  padding: 10px 20px;
   margin-top: 10px;
   color: black;
   transition: all 0.5s;
