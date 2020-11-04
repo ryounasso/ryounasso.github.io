@@ -77,6 +77,10 @@ footer p{
   font-size: 20px;
 }
 
+.footer-container{
+  padding-top: 5px;
+}
+
 a.no-color-change:link,
 a.no-color-change:visited,
 a.no-color-change:hover,
