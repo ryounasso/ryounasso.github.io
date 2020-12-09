@@ -85,7 +85,7 @@ a.no-color-change:link,
 a.no-color-change:visited,
 a.no-color-change:hover,
 a.no-color-change:active {
-  color: black;
+  color: white;
 }
 
 .img{
