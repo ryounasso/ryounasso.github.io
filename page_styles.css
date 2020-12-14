@@ -1,3 +1,7 @@
+ul {
+  list-style: none;
+}
+
 header {
   position : relative;
   margin-left:0;
@@ -49,12 +53,12 @@ p.img2{
 }
 
 .wrapper{
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     position: relative;/*←相対位置*/
-    padding-bottom: 50px;/*←footerの高さ*/
+    padding-bottom: 0px;/*←footerの高さ*/
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
     flex-direction: column;
-    margin-top: 150px
+    margin-top: 10px
 }
 
 .rounded-circle{
@@ -105,4 +109,17 @@ a.no-color-change:active {
 
 .btn:hover{
   opacity: 0.8;
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.about-icon{
+  font-size:1.5em;
+  color: black;
+}
+
+.skills-list{
+  font-size:1.5em;
 }
