@@ -8,7 +8,7 @@ header {
   padding : 0px;
   width : 100%;
   height : 200px;
-  background: linear-gradient(-135deg, black, darkgray);
+  background: linear-gradient(-135deg, black, #222222);
 }
 
 .head-title{
@@ -76,7 +76,8 @@ footer{
   clear:both;
   height:50px;
   width: 100%;
-  background-color: #87CEFA;
+  /* background-color: #87CEFA; */
+  background: linear-gradient(-135deg, black, #222222);
   color: #fff;
   text-align: center;
   font-size:0.85em;
@@ -123,7 +124,7 @@ a.no-color-change:active {
 }
 
 .Skills{
-  background: linear-gradient(-135deg, black, darkgray);
+  background: linear-gradient(-135deg, black, #222222);
   color: white;
 }
 
@@ -134,4 +135,57 @@ a.no-color-change:active {
 
 .skills-list{
   font-size:1.5em;
+}
+
+.list-works{
+  display:flex;
+  overflow-x:scroll;
+  text-align: center;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-works img{
+  width: 100px;
+  height: 30px;
+}
+
+.item{
+  display: inline-block;
+  width: 90%;
+}
+
+
+
+.slide-wrap {
+  /* background-color: #ccc; */
+  display: flex;
+  /* margin: 0 auto; */
+  /* max-width: 1024px; */
+  width: 100%;
+  overflow-x: scroll;
+}
+.slide-box {
+  /* height: auto; */
+  /* margin: .5%; */
+  width: 24%;
+  flex: 0 0 20%;
+  margin: auto 1% auto auto;
+}
+.slide-box a {
+  background-color: #fff;
+  color: #222;
+  display: block;
+  text-decoration: none;
+}
+.slide-box img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.slide-box p {
+  font-weight: bold;
+  padding: 10px;
+  margin:.5rem auto;
 }
