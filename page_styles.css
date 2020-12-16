@@ -12,7 +12,8 @@ header {
 }
 
 .head-title{
-  padding-top: 80px;
+  padding-top: 40px;
+  /* margin-top:40px; */
   padding-right: 80px;
 }
 
@@ -46,7 +47,7 @@ header .title p {
   top: 20px;
   left : 30px;
   font-family: 'Bungee Hairline', cursive;
-  font-size: 4vw;
+  font-size: 7vw;
   color : #FFF;
 }
 
@@ -137,18 +138,8 @@ a.no-color-change:active {
   font-size:1.5em;
 }
 
-.list-works{
-  display:flex;
-  overflow-x:scroll;
+.works-list{
   text-align: center;
-  white-space: nowrap;
-  text-align: center;
-  -webkit-overflow-scrolling: touch;
-}
-
-.list-works img{
-  width: 100px;
-  height: 30px;
 }
 
 .item{
