@@ -6,7 +6,8 @@ header {
   position : relative;
   /* margin-top : 0; */
   width : 100%;
-  background: linear-gradient(-135deg, #666666, #222222);
+  /* background: linear-gradient(-135deg, #666666, #222222); */
+  background: linear-gradient(-135deg, #00BFFF, #3399FF);
 }
 
 .head-title{
@@ -66,7 +67,8 @@ footer{
   height:50px;
   width: 100%;
   /* background-color: #87CEFA; */
-  background: linear-gradient(-135deg, #666666, #222222);
+  /* background: linear-gradient(-135deg, #666666, #222222); */
+  background: linear-gradient(-135deg, #00BFFF, #3399FF);
   color: #fff;
   text-align: center;
   font-size:0.85em;
@@ -114,7 +116,8 @@ a.no-color-change:active {
 }
 
 .Skills{
-  background: linear-gradient(-135deg, #666666, #222222);
+  /* background: linear-gradient(-135deg, #666666, #222222); */
+  background: linear-gradient(-135deg, #00BFFF, #3399FF);
   color: white;
 }
 
