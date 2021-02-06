@@ -147,9 +147,9 @@ a.no-color-change:active {
   overflow-x: scroll;
 }
 .slide-box {
-  width: 35%;
-  flex: 0 0 30%;
-  margin: auto 1% auto auto;
+  width: 30%;
+  flex: 0 0 20%;
+  margin: auto 5% auto auto;
 }
 .slide-box a {
   background-color: #fff;
@@ -162,11 +162,11 @@ a.no-color-change:active {
   height: auto;
   width: 100%;
 }
-.slide-box p {
+/* .slide-box p {
   font-weight: bold;
   padding: 10px;
   margin:.5rem auto;
-}
+} */
 
 .comment{
   font-family: 'Times New Roman';
