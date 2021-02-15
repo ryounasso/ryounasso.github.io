@@ -176,3 +176,7 @@ a.no-color-change:active {
 .comment {
   font-family: "Times New Roman";
 }
+
+.skill p {
+  font-size: 20px;
+}
